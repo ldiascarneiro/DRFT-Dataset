@@ -7,7 +7,7 @@ Helper script to load the DRFT dataset into a pandas DataFrame.
 import pandas as pd
 from pathlib import Path
 
-def load_drft_dataset(path: str = "4-DRFT_dataset.xlsx") -> pd.DataFrame:
+def load_drft_dataset(path: str = "DRFT_dataset.xlsx") -> pd.DataFrame:
     """
     Load the DRFT dataset from an Excel file and return it as a pandas DataFrame.
 
