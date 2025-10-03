@@ -71,6 +71,22 @@ Typical research use cases include:
 
 ---
 
+## 📜 How to Load the Dataset
+We provide a helper script [`drft_loader.py`](scripts/drft_loader.py) to make it easy to load the dataset into a pandas DataFrame.
+
+### Example:
+```python
+from scripts.drft_loader import load_drft_dataset
+
+# Load the dataset
+df = load_drft_dataset("DRFT_dataset.xlsx")
+
+# Explore
+print(df.shape)
+print(df.head())
+
+---
+
 ## ⚖️ Ethical and Legal Considerations
 - All materials are **publicly available** (ICLR/OpenReview, PeerRead, arXiv).  
 - Reviewer anonymity is preserved.  
