@@ -56,11 +56,11 @@ Each row in the `.xlsx` dataset contains:
 - **Correlation:** r ≈ –0.33 (complementarity between metrics)
 
 <p align="center">
-  <img src="figures/bertscore_distribution.png" alt="BERTScore Distribution" width="70%"/>
+  <img src="figures/bertscore_distribution.png" alt="BERTScore Distribution" width="60%"/>
 </p>
 
 <p align="center">
-  <img src="figures/geval_distribution.png" alt="G-Eval Distribution" width="70%"/>
+  <img src="figures/geval_distribution.png" alt="G-Eval Distribution" width="60%"/>
 </p>
 
 
