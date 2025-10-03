@@ -55,8 +55,14 @@ Each row in the `.xlsx` dataset contains:
 - **G-Eval:** mean ≈ 8.31  
 - **Correlation:** r ≈ –0.33 (complementarity between metrics)
 
-![BERTScore Distribution](figures/bertscore_distribution.png)  
-![G-Eval Distribution](figures/geval_distribution.png)  
+<p align="center">
+  <img src="figures/bertscore_distribution.png" alt="BERTScore Distribution" width="70%"/>
+</p>
+
+<p align="center">
+  <img src="figures/geval_distribution.png" alt="G-Eval Distribution" width="70%"/>
+</p>
+
 
 ---
 
