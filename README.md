@@ -1,3 +1,37 @@
+# DRFT: Draft–Review–Final Triples Dataset
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](link_para_o_paper_se_disponivel)
+
+## 📌 Overview
+**DRFT (Draft–Review–Final Triples)** is a curated dataset of **225 triplets** that capture the **peer-review cycle** in scientific publishing.  
+Each instance contains:
+- The **initial draft** (submission)
+- The **peer reviews** (concatenated comments and/or meta-review)
+- The **final published version** (arXiv)
+
+The dataset is distributed as a single `.xlsx` file with standardized schema and evaluation signals.
+
+![Dataset Pipeline](figures/FlowChart.png)
+
+---
+
+## 📊 Key Features
+- **225 aligned draft–review–final triplets** (ICLR + PeerRead).
+- **Two automatic metrics** included:
+  - **BERTScore** (draft ↔ final) – semantic preservation
+  - **G-Eval** (review → final, GPT-5o-mini) – review uptake with justification
+- **Compact, high-value benchmark** for:
+  - Review-conditioned edit planning
+  - Evaluating automatic revisions vs. human finals
+  - Analyzing review facets and revision magnitude
+
+---
+
+## 📂 Repository Structure
+![Dataset Pipeline](figures/DRFT_github_struct.png)
+
+
 
 ---
 
